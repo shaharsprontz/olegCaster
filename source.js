@@ -3,8 +3,8 @@ var stories = ["All puzzles are missing a square",
                "yes yes",
                "poopUp",
                "First Cless",
-               "Why the voice in the elivator isn't sexy",
-               "If you're not walking forward, you are working backwords"], 
+               "Why the voice in the elevator isn't sexy",
+               "If you're not walking forward, you are walking backwords"], 
     i = -1;
 (function f(){
     i = (i + 1) % stories.length;
