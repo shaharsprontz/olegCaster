@@ -1,12 +1,12 @@
 function sentenceGenerator(){
-var stories = ["All puzzles are missing a square",
-               "Yes Yes",
+var stories = ["לכל פאזל חסרה קובייה",
+               "כן כן",
                "poopUp",
                "First Cless",
-               "Why the voice in the elevator isn't sexy",
-               "If you're not walking forward, you are walking backwords",
-               "Why Humus has tahini in it?!", "Third time, Heartburn", "A black elephant passed through them", "Sometimes there are waves and sometimes traffic jam",
-               "I ate peanuts on suturday", "Happy half day!", "Life is like cheese", ""], 
+               "למה אין קול סקסי במעלית",
+               "מי שהולך קדימה הולך אחורה",
+               "למה חומוס זה עןם טחינה", "פעם שלישית צרבת", "עבר ביניהם פיל שחור", "לפעמים יש גלים ויש פקקים",
+               "אכלתי בוטנים בשבת", "חצי יום שמח", "החיים זה כמו גבינה"], 
     
 i = -1;
 (function f(){
