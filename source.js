@@ -5,7 +5,7 @@ var stories = ["All puzzles are missing a square",
                "First Cless",
                "Why the voice in the elevator isn't sexy",
                "If you're not walking forward, you are walking backwords",
-               "Why Humus has tahini in it?!", "Third time, Heartburn", "A black elephant passed through them", "Sometimes there are waves and sometimes traffic",
+               "Why Humus has tahini in it?!", "Third time, Heartburn", "A black elephant passed through them", "Sometimes there are waves and sometimes traffic jam",
                "I ate peanuts on suturday", "Happy half day!", "Life is like cheese", ""], 
     
 i = -1;
