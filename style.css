@@ -1,11 +1,40 @@
+
+body {
+    background: #D6EAF8; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#D6EAF8, #EAF2F8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#D6EAF8, #EAF2F8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#D6EAF8, #EAF2F8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#D6EAF8, #EAF2F8); /* Standard syntax */
+}
+
 #title {
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 70px;
+    color: #34495E;
+    text-shadow: 4px 4px 2px #DFDFDF;
+}
+
+#para {
+    text-shadow: 4px 4px 2px #DFDFDF;
+    margin-top: 0px;
+    margin-bottom: 150px;
+    color: #34495E;
 }
 
 #displayLines {
     text-align: center;
-    font-size: 40px;
-    margin-top: 25px;
+    font-size: 80px;
 }
 
+#videoFrame {
+    top: 100px;
+    position: fixed;
+    z-index: 1;
+}
+
+img {
+    width: 450px;
+    height: 100px;
+}
