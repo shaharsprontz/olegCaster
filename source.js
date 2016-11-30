@@ -18,39 +18,28 @@ i = -1;
     setTimeout(f, 10000);
     $("#displayLines").fadeOut(3000);
  })();
-//
-// //
-// // var videos = [
-// //     'IMG_6222.MOV',
-// //     'IMG_6223.MOV',
-// //     'IMG_6224.MOV'
-// // ];
-// //
-// // var index=Math.floor(Math.random() * videos.length);
-// // var html='<div id="vid" <iframe width="100%" height="200" src="https://github.com/shaharsprontz/olegCaster/tree/gh-pages/media' + videos[index] + '" frameborder="0" allowfullscreen></iframe></div>';
-// // document.write(html)
-// }
-     
-     
-     function rand(n) {
-         return ( Math.floor(Math.random() * n + 1) );
-     }
+
+
+
+    function rand(n) {
+        return ( Math.floor(Math.random() * n + 1) );
+    }
 
 // Store youtube [CHANGES NEEDED IN THE 3 URLS BELOW]
-     var vids = [];
-     vids[0] = "https://github.com/shaharsprontz/olegCaster/blob/gh-pages/media/IMG_6222.MOV";
-     vids[1] = "https://github.com/shaharsprontz/olegCaster/blob/gh-pages/media/IMG_6223.MOV";
-     vids[2] = "https://github.com/shaharsprontz/olegCaster/blob/gh-pages/media/IMG_6224.MOV";
+    var vids = [];
+    vids[0] = "https://drive.google.com/open?id=0B2FirBeBp6PKSmFiNWVnVmJRQjg";
+    vids[1] = "https://drive.google.com/open?id=0B2FirBeBp6PKRDBreXpuanFKZlE";
+    vids[2] = "https://drive.google.com/open?id=0B2FirBeBp6PKcGZGQ2NGRWpBY3c";
 
 
 // Pick a random video from the list
-     function pick_vid() {
-         var numberOfImages = 3; //[CHANGE THE 3 TO THE TOTAL NUMBER OF VIDS YOU USE]
-         var num = rand(numberOfImages) - 1;
+    function pick_vid() {
+        var numberOfImages = 3; //[CHANGE THE 3 TO THE TOTAL NUMBER OF VIDS YOU USE]
+        var num = rand(numberOfImages) - 1;
 
-         document.getElementById("random_youtube_vid").src = vids[num];
-     }
+        document.getElementById("random_youtube_vid").src = vids[num];
+    }
 
-     window.onload = pick_vid;
+    document.onload = pick_vid;
 
- }
+}
