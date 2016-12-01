@@ -32,10 +32,16 @@ body {
 
 #random_youtube_vid {
     border: 1px solid black;
+    
+    width: 980px;
+    height: 560px;
 }
 
 p {
     text-align: center;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 img {
