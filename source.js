@@ -27,9 +27,9 @@
 
 // Store youtube [CHANGES NEEDED IN THE 3 URLS BELOW]
     var vids = [];
-    vids[0] = "https://drive.google.com/file/d/0B2FirBeBp6PKSmFiNWVnVmJRQjg?ap=1";
-    vids[1] = "https://drive.google.com/file/d/0B2FirBeBp6PKSmFiNWVnVmJRQjg?ap=1";
-    vids[2] = "https://drive.google.com/file/d/0B2FirBeBp6PKSmFiNWVnVmJRQjg?ap=1";
+    vids[0] = "https://drive.google.com/open?id=0B2FirBeBp6PKSmFiNWVnVmJRQjg";
+    vids[1] = "https://drive.google.com/open?id=0B2FirBeBp6PKRDBreXpuanFKZlE";
+    vids[2] = "https://drive.google.com/open?id=0B2FirBeBp6PKcGZGQ2NGRWpBY3c";
 
 
 // Pick a random video from the list
