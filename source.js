@@ -18,7 +18,7 @@ i = -1;
     setTimeout(f, 10000);
     $("#displayLines").fadeOut(3000);
  })();
-
+};
 
 
 //     function rand(n) {
