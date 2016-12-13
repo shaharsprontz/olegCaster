@@ -1,4 +1,4 @@
-function sentenceGenerator() {
+// function sentenceGenerator() {
 // var stories = ["לכל פאזל חסרה קובייה",
 //                "כן כן",
 //                "poopUp",
@@ -45,4 +45,4 @@ function sentenceGenerator() {
     location.reload();
     }, 10000);
 
-}
+
