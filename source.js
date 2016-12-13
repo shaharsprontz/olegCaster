@@ -21,9 +21,9 @@ function sentenceGenerator() {
 // };
 
 
-    function rand(n) {
-        return ( Math.floor(Math.random() * n + 1) );
-    }
+//     function rand(n) {
+//         return ( Math.floor(Math.random() * n + 1) );
+//     }
 
 // Store youtube [CHANGES NEEDED IN THE 3 URLS BELOW]
     var vids = [];
@@ -45,3 +45,4 @@ function sentenceGenerator() {
     location.reload();
     }, 10000);
 
+}
